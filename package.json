@@ -1,0 +1,31 @@
+{
+  "name": "react-demo",
+  "version": "1.0.0",
+  "description": "Intro to React.js and related concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sterlingwes/react-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sterlingwes/react-demo/issues"
+  },
+  "homepage": "https://github.com/sterlingwes/react-demo",
+  "dependencies": {
+    "babel": "^4.7.16",
+    "babel-core": "^4.7.16",
+    "babel-loader": "^4.2.0",
+    "gulp": "^3.8.11",
+    "gulp-webpack": "^1.3.0",
+    "node-jsx": "^0.12.4",
+    "react": "^0.13.1",
+    "react-tools": "^0.13.1",
+    "through": "^2.3.6",
+    "webpack": "^1.7.3"
+  }
+}

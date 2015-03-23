@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>004 Styling</title>
+    <script src="../node_modules/react/dist/react-with-addons.js"></script>
+    
+    <style type="text/css">
+      html, body {
+        font-family: 'Arial', sans-serif;
+      }
+    
+      .todoitem-enter {
+        opacity: 0.01;
+        transition: opacity .5s ease-in;
+      }
+
+      .todoitem-enter.todoitem-enter-active {
+        opacity: 1;
+      }
+      
+      .todoitem-leave {
+        opacity: 1;
+        transition: opacity .5s ease-in;
+      }
+
+      .todoitem-leave.todoitem-leave-active {
+        opacity: 0.01;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mount"></div>
+    <script src="build/component.js"></script>
+  </body>
+</html>
